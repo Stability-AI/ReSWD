@@ -1,0 +1,38 @@
+[project]
+name = "ReSWD"
+version = "0.1.0"
+description = "A modified Sliced Wasserstein Distance for variance reduction."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.7.0",
+    "diffusers>=0.33.1",
+    "gradio>=5.29.0",
+    "imageio[ffmpeg]>=2.37.0",
+    "jaxtyping>=0.3.2",
+    "lightning>=2.5.1.post0",
+    "lxml>=5.4.0",
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.5",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.2.1",
+    "protobuf>=6.32.1",
+    "scipy>=1.15.3",
+    "sentencepiece>=0.2.1",
+    "torch>=2.7.0",
+    "torchvision>=0.22.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.52.4",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+    "pytest>=8.3.5",
+    "ruff>=0.11.8",
+]
+
+[tool.ruff]
+lint.select = ["E", "F", "I001"]
+lint.ignore = ["E721", "E731", "F722", "F821"]
+lint.ignore-init-module-imports = true
