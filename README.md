@@ -1,6 +1,6 @@
 # ReSWD: ReSTIR‘d, not shaken. Combining Reservoir Sampling and Sliced Wasserstein Distance for Variance Reduction.
 
-<a href="https://reservoirswd.github.io/"><img src="https://img.shields.io/badge/Project%20Page-5CE1BC.svg"></a> <a href="https://reservoirswd.github.io/static/paper.pdf"><img src="https://img.shields.io/badge/Arxiv-2408.00653-B31B1B.svg"></a> <a href="https://huggingface.co/spaces/stabilityai/reswd"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Gradio%20Demo-Huggingface-orange"></a>
+<a href="https://reservoirswd.github.io/"><img src="https://img.shields.io/badge/Project%20Page-5CE1BC.svg"></a> <a href="https://arxiv.org/abs/2510.01061"><img src="https://img.shields.io/badge/Arxiv-2510.01061-B31B1B.svg"></a> <a href="https://huggingface.co/spaces/stabilityai/reswd"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Gradio%20Demo-Huggingface-orange"></a>
 
 This is the official codebase for **ReSWD**, a state-of-the-art algorithm for distribution matching with reduced variance. It has several applications (such as diffusion guidance or color matching).
 
